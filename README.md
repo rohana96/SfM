@@ -14,7 +14,7 @@ You will implement an entire incremental Structure-from-Motion (SfM) pipeline in
 Your goal in this question is to implement initialization for incremental SfM, i.e., reconstruction on two views. 
 
 **Dataset**
-- Run your code on the two images in `data/monument` folder, which also contains noisy keypoint matches.
+- Run your code on the two "real world" images in `data/monument` folder, which also contains "noisy" keypoint matches.
 
 **Submission**
 - Visualization of the 3D reconstruction from at least two views. Example of the visualization:
@@ -30,7 +30,7 @@ Your goal in this question is to implement initialization for incremental SfM, i
 
 ## Q2: Incremental Structure-from-Motion (40 points)
 
-Here, you will implement incremental Structure-from-Motion (SfM). You will implement incremental SfM using four images. We provide 2D keypoint correspondences across all pairs of these images in the folder `correspondences/`. Starting from 2 images (whose extrinsincs are provided) and assuming that the intrinsics remain fixed for all the four images, you will incrementally add each of the other 2 images. 
+Here, you will implement incremental Structure-from-Motion (SfM). You will implement incremental SfM using four synthetic images. We provide "clean" 2D keypoint correspondences across all pairs of these images in the folder `correspondences/`. Starting from 2 images (whose extrinsincs are provided) and assuming that the intrinsics remain fixed for all the four images, you will incrementally add each of the other 2 images. 
 
 **Dataset**
 > Images: `data_cow/images`
