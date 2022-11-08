@@ -30,12 +30,12 @@ Your goal in this question is to implement initialization for incremental SfM, i
 
 ## Q2: Incremental Structure-from-Motion (40 points)
 
-Here, you will implement incremental Structure-from-Motion (SfM). You will implement incremental SfM using four synthetic images. We provide "clean" 2D keypoint correspondences across all pairs of these images in the folder `correspondences/`. Starting from 2 images (whose extrinsincs are provided) and assuming that the intrinsics remain fixed for all the four images, you will incrementally add each of the other 2 images. 
+Here, you will implement incremental Structure-from-Motion (SfM). You will implement incremental SfM using four synthetic images. We provide "clean" 2D keypoint correspondences across all pairs of these images in the folder `data/data_cow/correspondences/`. Starting from 2 images (whose extrinsincs are provided) and assuming that the intrinsics remain fixed for all the four images, you will incrementally add each of the other 2 images. 
 
 **Dataset**
-> Images: `data_cow/images`
-> Correspondences (all pairs): `data_cow/correspondences`
-> Cameras: `data_cow/cameras`
+> Images: `data/data_cow/images`
+> Correspondences (all pairs): `data/data_cow/correspondences`
+> Cameras: `data/data_cow/cameras`
 
 - Run your code on the four images of synthetic cow in `data/data_cow` folder, which also contains all pair correspondences between 4 images. Please start (initialize) your incremental SfM using `Camera 1` and `Camera 2`. You can assume fixed intrinsics for all the 4 images.
 
