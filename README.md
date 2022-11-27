@@ -36,8 +36,8 @@ Implementation:
 2. Compute Essential matrix using $E = K_2^T F K_1$. Set the first two singular values to be equal to the mean of first two 
    singular values and the third one to be 0. This will singularize E.
 3. Initialize the first camera to be at world centre and aligned.
-4. Decompose the E to find 4 possible extrisincs as $[U W V^T | u_3], [U W V^T | -u_3], [U W^T V^T | u_3], [U W^T V^T | -u_3]$ where $W= [[0 -1 0],
-   [1 0 0], [0 0 1]]$
+4. Decompose the E to find 4 possible extrisincs as $[U W V^T | u_3], [U W V^T | -u_3], [U W^T V^T | u_3], [U W^T V^T | -u_3]$ where `W= [[0 -1 0],
+   [1 0 0], [0 0 1]]`
 5. Choose the matrix for which all points lie in front of both cameras. Equivalently, you can find the camera that minimizes reprojection loss. 
 6. Use the obtained camera matrix to triangulate and get 3D points.
 
