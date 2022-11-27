@@ -30,7 +30,6 @@ Implementing initialization for incremental SfM, i.e., reconstruction on two vie
 `[-0.00779614, -0.18063356, -1.        ]`
 
 ### Implementation
-Implementation:
 
 1. Use the eight point algorithm to estimate the fundamental matrix F. The correspondences can be noisy. Hence, use RANSAC.
 2. Compute Essential matrix using $E = K_2^T F K_1$. Set the first two singular values to be equal to the mean of first two 
