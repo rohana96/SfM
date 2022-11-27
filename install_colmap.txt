@@ -1,0 +1,32 @@
+# ============ Install COLMAP (MacOS Intel) ============
+brew install \
+    git \
+    cmake \
+    boost \
+    eigen \
+    freeimage \
+    glog \
+    gflags \
+    metis \
+    suite-sparse \
+    ceres-solver \
+    qt5 \
+    glew \
+    cgal
+
+brew unlink qt
+brew link qt5
+
+git clone https://github.com/colmap/colmap.git
+cd colmap
+git checkout dev
+mkdir build
+cd build
+cmake ..
+make -j
+sudo make install
+
+# ============ Install COLMAP (MacOS M1) ============
+https://github.com/colmap/colmap/releases/tag/3.5
+
+# press ctrl + open
