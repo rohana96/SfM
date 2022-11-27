@@ -125,9 +125,9 @@ views are texture-less. In such cases, feature matching fails  feature matches. 
 reconstruction fails to reconstruct the paper roll and or the cameras accurately. The reconstructed points are very sparse with no shape. The paper 
 roll has a flat texture and the floor has repeating patterns. Therefore, COLMAP is sensitive to the texture of the input views. 
 
-| Example Multi-view images                                                                                                                                                                                                       | Output                                 | 
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------| 
-| <img src="out/samples/paper_roll/0000.jpeg" height="200"><img src="out/samples/paper_roll/0001.jpeg" height="200"><img src="out/samples/paper_roll/0002.jpeg" height="200"><img src="out/samples/paper_roll/0003.jpeg" height="200"> | <img src="out/paper_roll.gif" height="500"> |  
+| Example Multi-view images                                                                                                                                                                                                       | Output                                  | 
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------| 
+| <img src="out/samples/paper_roll/0000.jpeg" height="200"><img src="out/samples/paper_roll/0001.jpeg" height="200"><img src="out/samples/paper_roll/0002.jpeg" height="200"><img src="out/samples/paper_roll/0003.jpeg" height="200"> | <img src="out/paper_roll.gif" width="500"> |  
 
 
 
